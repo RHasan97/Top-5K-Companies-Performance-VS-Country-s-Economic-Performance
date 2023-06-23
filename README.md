@@ -1,13 +1,13 @@
 # Top-5K-Companies-Performance-VS-Country-s-Economic-Performance
 ## Problem Statement
-The objective of this project was to gather useful information about the top 5000 companies from the [website](https://companiesmarketcap.com/). We scraped the data and compared their performances based on their national economic indicators extracted from the world bank archive https://archive.doingbusiness.org/en/data/exploretopics/starting-a-business. From the datasets, we tried to understand-
+The objective of this project was to gather useful information about the top 5000 companies from the [website](https://companiesmarketcap.com/). We scraped the data and compared their performances based on their national economic indicators extracted from the [world bank archive](https://archive.doingbusiness.org/en/data/exploretopics/starting-a-business). From the datasets, we tried to understand-
 1. Which companies are performing best?
 2. Which countries have the highest number of companies and how much they are contributing to the economy?
 3. The correlation both within and among the Business and Economic indicators
 4. Is there any specific patterns to develop a predictive model based on that?
 ## Methodology
 The scraped and archived data were analyzed using Tableau Public. Various charts have been developed to understand the data structure and identify any patterns. Bar charts, map charts, scatter plots, and line, bubble, and honeycomb charts were developed to see if any correlations and trends were present among the samples. The public dashboards are [here](https://public.tableau.com/app/profile/ragib.hasan/viz/DataAnalysisProject_16873100451240/CorrelationbetweenBusinessPerformanceIndicatorsandEconomicIndicators?publish=yes). for reference. 
-## Findings from the [Dashboard] (https://public.tableau.com/app/profile/ragib.hasan/viz/DataAnalysisProject_16873100451240/CorrelationbetweenBusinessPerformanceIndicatorsandEconomicIndicators?publish=yes).
+## Findings from the [Dashboard]
 1. The top 10 companies represent 53% of the overall market cap.
 2. The United state has the highest no. of companies (around 40%) among the top 5K companies around the world, therefore it is the highest-grossing economy.
 3. There is a slightly positive correlation among the business performance indicators. However, the indicators have less effect on the share prices of the companies
