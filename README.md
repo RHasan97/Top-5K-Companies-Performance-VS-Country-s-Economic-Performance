@@ -28,4 +28,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 4. Download Chrome WebDrive from https://chromedriver.chromium.org/downloads
-5. Get the data using scrappers and from archives
+5. Run the scraper
+```bash
+python selenium_scraper/scraper.py --chromedriver_path <path_to_chromedriver>
+```  
+6. 
+Tableau Public View: https://public.tableau.com/app/profile/ragib.hasan/viz/DataAnalysisProject_16873100451240/CorrelationbetweenBusinessPerformanceIndicatorsandEconomicIndicators?publish=yes 
