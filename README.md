@@ -6,8 +6,8 @@ The objective of this project was to gather useful information about the top 500
 3. The correlation both within and among the Business and Economic indicators
 4. Is there any specific patterns to develop a predictive model based on that?
 ## Methodology
-The scraped and archived data were analyzed using Tableau Public. Various charts have been developed to understand the data structure and identify any patterns. Bar charts, map charts, scatter plots, and line, bubble, and honeycomb charts were developed to see if any correlations and trends were present among the samples. The public dashboards are [here](https://public.tableau.com/app/profile/ragib.hasan/viz/DataAnalysisProject_16873100451240/CorrelationbetweenBusinessPerformanceIndicatorsandEconomicIndicators?publish=yes) for reference. 
-## Findings from the [Dashboard] (https://public.tableau.com/app/profile/ragib.hasan/viz/DataAnalysisProject_16873100451240/CorrelationbetweenBusinessPerformanceIndicatorsandEconomicIndicators?publish=yes)
+The scraped and archived data were analyzed using Tableau Public. Various charts have been developed to understand the data structure and identify any patterns. Bar charts, map charts, scatter plots, and line, bubble, and honeycomb charts were developed to see if any correlations and trends were present among the samples. The public dashboards are [here](https://public.tableau.com/app/profile/ragib.hasan/viz/DataAnalysisProject_16873100451240/CorrelationbetweenBusinessPerformanceIndicatorsandEconomicIndicators?publish=yes). for reference. 
+## Findings from the [Dashboard] (https://public.tableau.com/app/profile/ragib.hasan/viz/DataAnalysisProject_16873100451240/CorrelationbetweenBusinessPerformanceIndicatorsandEconomicIndicators?publish=yes).
 1. The top 10 companies represent 53% of the overall market cap.
 2. The United state has the highest no. of companies (around 40%) among the top 5K companies around the world, therefore it is the highest-grossing economy.
 3. There is a slightly positive correlation among the business performance indicators. However, the indicators have less effect on the share prices of the companies
