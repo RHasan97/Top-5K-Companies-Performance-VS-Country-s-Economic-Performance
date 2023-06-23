@@ -1,0 +1,4 @@
+Websites to scrape: https://companiesmarketcap.com/, https://companiesmarketcap.com/most-profitable-companies/, https://companiesmarketcap.com/largest-companies-by-revenue/, 
+Resouce files: https://archive.doingbusiness.org/en/data/exploretopics/starting-a-business
+Cromedriver download Url: https://chromedriver.chromium.org/downloads
+Selenium python Documentation: https://selenium-python.readthedocs.io/installation.html
