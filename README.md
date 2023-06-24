@@ -28,8 +28,5 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 4. Download Chrome WebDrive from https://chromedriver.chromium.org/downloads
-<<<<<<< HEAD
 5. Get the data using scrappers and from archives
-=======
-5. Get the data using scrappers and from archives.  
->>>>>>> c2b911af509d41ebfe43ca64133ea5bb3200981d
+
