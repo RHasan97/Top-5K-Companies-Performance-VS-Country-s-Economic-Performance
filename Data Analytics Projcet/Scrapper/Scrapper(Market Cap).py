@@ -3,24 +3,24 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 import numpy as np
 
-columns = ["Name", "Revenue", "Multiplicative", "Share Price", "Country"]
+columns = ["Name", "Market Cap", "Multiplicative", "Share Price", "Country"]
 
 
 def Compnay_details(row):
     information = row.text.split('\n')
-    contents ={}
-    contents["Name"] = information[1]
-    contents["Revenue"] = information[3].split()[0]
-    contents["Multiplicative"]=information[3].split()[1]
-    contents["Share Price"] = information[3].split()[2]
-    contents["Country"] = ' '.join(information[3].split()[4:])
-    return contents
+    cn ={}
+    cn["Name"] = information[1]
+    cn["Market Cap"] = information[3].split()[0]
+    cn["Multiplicative"]=information[3].split()[1]
+    cn["Share Price"] = information[3].split()[2]
+    cn["Country"] =' '.join(information[3].split()[4:])
+    return cn
 
 
 def main():
     Company_data=[]
     for page_id in range(1,77):
-        url = f"https://companiesmarketcap.com/largest-companies-by-revenue/?page={page_id}"
+        url = f"https://companiesmarketcap.com/?page={page_id}"
         driver = webdriver.Chrome()
         driver.get(url)
         rankings = driver.find_element(By.CSS_SELECTOR, '#cmkt > div.table-container.shadow > table')
@@ -40,10 +40,10 @@ def main():
         elif df["Multiplicative"][i]=="M":
             df["Multiplicative"][i] = int(10**6)
 
-    df["Revenue"] = df["Revenue"].str.replace("$", "")
+    df["Market Cap"] = df["Market Cap"].str.replace("$", "")
     df["Share Price"] = df["Share Price"].str.replace("$", "")
-
-    df.to_csv("best_revenue_companies.csv", index=False)
+    
+    df.to_csv("best_marketcap_companies.csv", index=False)
     return
 
 if __name__ == "__main__":
