@@ -1,4 +1,4 @@
-# Top-5K-Companies-Performance-VS-Country-s-Economic-Performance
+# Top 5K Companies Performance VS Country's Economic Performance
 ## Problem Statement
 The objective of this project was to gather useful information about the top 5000 companies from the [website](https://companiesmarketcap.com/). We scraped the data and compared their performances based on their national economic indicators extracted from the [world bank archive](https://archive.doingbusiness.org/en/data/exploretopics/starting-a-business). From the datasets, we tried to understand-
 1. Which companies are performing best?
