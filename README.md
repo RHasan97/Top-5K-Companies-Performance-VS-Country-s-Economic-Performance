@@ -10,11 +10,11 @@ The scraped and archived data were analyzed using Tableau Public. Various charts
 ## Findings from the Dashboard
 1. The top 10 companies represent 53% of the overall market cap.
 2. The United state has the highest no. of companies (around 40%) among the top 5K companies around the world, therefore it is the highest-grossing economy.<br/>
-<img src = "Data Scrapping, Cleaning & Anaysis/Tableau Dashboard/Company.png" width="700" height="350">
-3. There is a slightly positive correlation among the business performance indicators. However, the indicators have less effect on the share prices of the companies
+<img src = "Data Scrapping, Cleaning & Anaysis/Tableau Dashboard/Company.png" width="850" height="350">
+3. There is a slightly positive correlation among the business performance indicators. However, the indicators have less effect on the share prices of the companies.
 4. The economic indicators do not directly affect the companies' performance in the global market other macro conditions may be responsible and need further investigation.
 5. There is little correlation between the country's economic conditions and the country's performance in doing business around the world. However, the correlation is not conclusive and requires further investigations with more companies or other indicators.<br/>
-<img src = "Data Scrapping, Cleaning & Anaysis/Tableau Dashboard/Correlation .png" width="700" height="350">
+<img src = "Data Scrapping, Cleaning & Anaysis/Tableau Dashboard/Correlation .png" width="850" height="350">
 ## Build from Sources
 1. Clone the repo
 ```bash
